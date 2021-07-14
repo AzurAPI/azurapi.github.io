@@ -400,7 +400,7 @@
               <div class="content">
                 <h1 id='introduction'>Introduction</h1>
 <aside class="warning">
-    Javascript Users, Please move to https://azurapi.github.io/v2/ for Updated docs. Below is for any versions below V1.0.0
+    Javascript Users, Please move to [https://azurapi.github.io/v2/](https://azurapi.github.io/v2/) for Updated docs. Below is for any versions below V1.0.0
 </aside>
 
 <blockquote>
@@ -452,8 +452,7 @@ This page is updated frequently according of our packages, please refer to this 
 </code></pre></div><div class="highlight"><pre class="highlight kotlin tab-kotlin"><code><span class="kd">val</span> <span class="py">oldDate</span> <span class="p">=</span> <span class="nc">Atago</span><span class="p">.</span><span class="nf">getVersion</span><span class="p">().</span><span class="n">lastUpdatedApi</span>
 <span class="nc">Atago</span><span class="p">.</span><span class="nf">reloadDatabase</span><span class="p">()</span>
 <span class="nf">expect</span><span class="p">(</span><span class="nc">Atago</span><span class="p">.</span><span class="nf">getVersion</span><span class="p">().</span><span class="n">lastUpdatedApi</span> <span class="p">&gt;</span> <span class="n">oldDate</span><span class="p">).</span><span class="nf">toBe</span><span class="p">(</span><span class="k">true</span><span class="p">)</span>
-</code></pre></div><div class="highlight"><pre class="highlight csharp tab-csharp"><code><span class="c1">// dotnet add package AzurAPINet</span>
-<span class="k">using</span> <span class="nn">Jan0660.AzurAPINet</span><span class="p">;</span>
+</code></pre></div><div class="highlight"><pre class="highlight csharp tab-csharp"><code><span class="k">using</span> <span class="nn">Jan0660.AzurAPINet</span><span class="p">;</span>
 <span class="kt">var</span> <span class="n">client</span> <span class="p">=</span> <span class="k">new</span> <span class="nf">AzurAPIClient</span><span class="p">(</span><span class="k">new</span> <span class="nf">AzurAPIClientOptions</span><span class="p">());</span>
 <span class="c1">// check for update</span>
 <span class="kt">var</span> <span class="n">isUpdateAvailable</span> <span class="p">=</span> <span class="k">await</span> <span class="n">client</span><span class="p">.</span><span class="nf">DatabaseUpdateAvailableAsync</span><span class="p">();</span>
@@ -822,7 +821,7 @@ This page is updated frequently according of our packages, please refer to this 
 <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">azurlane</span><span class="p">.</span><span class="nx">getEquipmentByEnglishName</span><span class="p">(</span><span class="dl">'</span><span class="s1">Quadruple 130mm (Mle 1932)</span><span class="dl">'</span><span class="p">))</span>
 
 </code></pre></div><div class="highlight"><pre class="highlight python tab-python"><code><span class="n">api</span><span class="p">.</span><span class="n">getEquipment</span><span class="p">(</span><span class="s">'Quadruple 130mm (Mle 1932)'</span><span class="p">)</span>
-</code></pre></div><div class="highlight"><pre class="highlight csharp tab-csharp"><code><span class="kt">var</span> <span class="n">equipment</span> <span class="p">=</span> <span class="n">client</span><span class="p">.</span><span class="nf">getEquipment</span><span class="p">(</span><span class="err">'</span><span class="n">Quadruple</span> <span class="m">130</span><span class="nf">mm</span> <span class="p">(</span><span class="n">Mle</span> <span class="m">1932</span><span class="p">)</span><span class="err">'</span><span class="p">)</span>
+</code></pre></div><div class="highlight"><pre class="highlight csharp tab-csharp"><code><span class="kt">var</span> <span class="n">equipment</span> <span class="p">=</span> <span class="n">client</span><span class="p">.</span><span class="nf">getEquipment</span><span class="p">(</span><span class="s">"Quadruple 130mm (Mle 1932)"</span><span class="p">);</span>
 </code></pre></div>
 <table><thead>
 <tr>
@@ -1116,7 +1115,7 @@ For contributions, questions, or supports of our libraries: please join our Disc
 
 <p><a href="https://discord.gg/aAEdys8"><img src="https://discordapp.com/api/guilds/648206344729526272/widget.png?style=banner2" alt="" /></a></p>
 
-<p>Discord Link: https://discord.gg/aAEdys8</p>
+<p>Discord Link: <a href="https://discord.gg/aAEdys8">https://discord.gg/aAEdys8</a></p>
 <h2 id='credits'>Credits</h2>
 <p>Data is being obtained by the official <a href="https://azurlane.koumakan.jp/">wiki</a> with prior permission before fetching data.</p>
 
