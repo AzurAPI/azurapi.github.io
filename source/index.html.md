@@ -29,7 +29,7 @@ code_clipboard: true
 
 # Introduction
 <aside class="warning">
-    Javascript Users, Please move to https://azurapi.github.io/v2/ for Updated docs. Below is for any versions below V1.0.0
+    Javascript Users, Please move to [https://azurapi.github.io/v2/](https://azurapi.github.io/v2/) for Updated docs. Below is for any versions below V1.0.0
 </aside>
 > To install a library, please open your project in a terminal and use the following commands:
 

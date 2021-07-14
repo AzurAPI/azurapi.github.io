@@ -15,7 +15,6 @@ Atago.reloadDatabase()
 expect(Atago.getVersion().lastUpdatedApi > oldDate).toBe(true)
 ```
 ```csharp
-// dotnet add package AzurAPINet
 using Jan0660.AzurAPINet;
 var client = new AzurAPIClient(new AzurAPIClientOptions());
 // check for update
